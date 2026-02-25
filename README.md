@@ -18,13 +18,17 @@ The algorithm filters equities through a rigorous 5-factor scoring matrix. A sto
 During recent tech market volatility, the screener successfully identified a severe, systematic anomaly within the Cybersecurity and Cloud SaaS sectors. 
 Equities such as CRWD (CrowdStrike), PANW (Palo Alto Networks), ZS (Zscaler), and TEAM (Atlassian) triggered high-conviction signals (Score 4/5) across nearly all thematic benchmarks (BigTech, Cloud, Disruptive Innovation). The model mathematically proved that this specific sub-sector was sold off far more aggressively than broader tech or AI indices would justify, presenting a classic relative-value arbitrage opportunity.
 
-## Tech Stack & Efficiency
-* Python (Core Logic)
+## Tech Stack & Usage
+* Python (Core Logic via Jupyter Notebook)
 * Pandas & NumPy (Vectorized data manipulation for high-performance screening)
 * Statsmodels (Econometric modeling & OLS regressions)
 * yfinance (Automated bulk-downloading of market data)
 
 Note: The script utilizes an efficient bulk-download architecture and inner join alignments to handle dirty data, trading halts, and timezone discrepancies without crashing.
+
+**How to view and run:**
+1. You can view the code and its latest screening output directly here on GitHub by opening the `.ipynb` file.
+2. To run it locally, clone the repository, install the dependencies (`pip install -r requirements.txt`), and execute the cells in Jupyter Notebook, JupyterLab, or VS Code.
 
 ## Compliance & Data Note
 To ensure full reproducibility, adherence to non-commercial data licensing, and public verifiability, this project utilizes open-source APIs (yfinance) rather than proprietary institutional data terminals (e.g., Bloomberg, LSEG Workspace).
