@@ -33,5 +33,5 @@ Note: The script utilizes an efficient bulk-download architecture and inner join
 ## Compliance & Data Note
 To ensure full reproducibility, adherence to non-commercial data licensing, and public verifiability, this project utilizes open-source APIs (yfinance) rather than proprietary institutional data terminals (e.g., Bloomberg, LSEG Workspace).
 
-## ⚠️ Disclaimer (Not Financial Advice)
+## Disclaimer (Not Financial Advice)
 The code, data, and opinions provided in this repository are strictly for educational, informational, and academic purposes only. They do not constitute financial, investment, or trading advice. Algorithmic trading involves substantial risk of loss and is not suitable for every investor. The creator of this repository assumes no responsibility or liability for any financial losses, damages, or errors resulting from the use of this code. Always conduct your own due diligence or consult a certified financial advisor before making any investment decisions.
